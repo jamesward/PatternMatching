@@ -3,7 +3,7 @@
 // Preview in JDK 17
 // Compile with javac flags: --enable-preview --source 17
 // Run with java flag: --enable-preview
-package javapm;
+
 import java.util.*;
 
 sealed interface Transport {}

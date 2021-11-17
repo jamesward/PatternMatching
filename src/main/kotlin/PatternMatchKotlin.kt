@@ -20,7 +20,7 @@ fun main() {
         Bicycle ("Bob"),
         Glider (65),
         Surfboard (6.4),
-    ).forEach { println(exhaustive(it)) }
+    ).map(::exhaustive).forEach(::println)
 }
 
 // If you uncomment this:
